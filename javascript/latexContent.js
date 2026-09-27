@@ -119,6 +119,7 @@ ${isUkrainian ? "\\def\\cyrillicencoding{T2A} % be explicit: babel takes the las
 \\ifdefined\\DeclareUnicodeCharacter
   \\DeclareUnicodeCharacter{1F00}{-}
   \\DeclareUnicodeCharacter{1F00}{\\alpha}
+  \\DeclareUnicodeCharacter{02BC}{\\textquoteright}
 \\fi
 \\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=false,factor=1100,stretch=10,shrink=10]{microtype}
 \\fi
